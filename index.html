@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+    <!-- Logo -->
+    <div class="container">
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <img class="logo-icon" src="/assets/Logo.svg" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <p class="logo-title">Les petits plats</p>
+            </div>
+        </div>
+        <!-- Search bar -->
+        <div class="row">
+            <form>
+                <div class="form-group d-flex p-4 rounded grey-background justify-content-between">
+                    <div><input class="grey-background  p-0 border-0" type="search" placeholder="Rechercher une recette"
+                            aria-label="Champ de recherche"></div>
+                    <div class="search-icon"><button class="grey-background border-0 text-dark p-0" type="submit"><i
+                                class="fa-solid fa-magnifying-glass"></i></button></div>
+                </div>
+            </form>
+        </div>
+        <!-- Meals galery -->
+        <div class="recipes_section"></div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <script src="scripts/factories/recipe.js"></script>
+        <script type="module" src="scripts/pages/index.js"></script>
+        <script type="module" src="data/recipes.js"></script>
+</body>
+
+</html>
