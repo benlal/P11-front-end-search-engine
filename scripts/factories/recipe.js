@@ -46,11 +46,14 @@ function recipeFactory(data) {
     contentRow.appendChild(ingredientsCol);
     ingredientsCol.appendChild(ingredientsList);
 
-    ingredients.forEach(() => {
+
+
+    ingredients.forEach((ingredient) => {
       const ingredientItem = document.createElement('li');
-      ingredientItem.textContent = `${ingredient}`;
+      ingredientItem.innerHTML = `<b>${ingredient.name} ${ingredient.quantity ? ':' : ''}</b> ${ingredient.quantity ?? ''} ${ingredient.unit ?? ''}`;
       ingredientsList.appendChild(ingredientItem);
     })
+
 
     contentRow.appendChild(recipeCol);
     recipeCol.appendChild(recipeText);

@@ -5,26 +5,26 @@ const recipes = [
         "servings" : 1,
         "ingredients": [
             {
-                "ingredient" : "Lait de coco",
+                "name" : "Lait de coco",
                 "quantity" : 400,
                 "unit" : "ml"
             },
             {
-                "ingredient" : "Jus de citron",
+                "name" : "Jus de citron",
                 "quantity" : 2
             },
             {
-                "ingredient" : "Crème de coco",
+                "name" : "Crème de coco",
                 "quantity" : 2,
                 "unit" : "cuillères à soupe"
             },
             {
-                "ingredient" : "Sucre",
+                "name" : "Sucre",
                 "quantity" : 30,
                 "unit" : "grammes"
             },
             {
-                "ingredient": "Glaçons"
+                "name": "Glaçons"
             }
         ],
         "time": 10,
@@ -38,28 +38,28 @@ const recipes = [
         "servings": 2,
         "ingredients": [
             {
-                "ingredient" : "Thon Rouge (ou blanc)",
+                "name" : "Thon Rouge (ou blanc)",
                 "quantity" : 200,
                 "unit" : "grammes"
             },
             {
-                "ingredient" : "Concombre",
+                "name" : "Concombre",
                 "quantity" : 1
             },
             {
-                "ingredient" : "Tomate",
+                "name" : "Tomate",
                 "quantity" : 2
             },
             {
-                "ingredient" : "Carotte",
+                "name" : "Carotte",
                 "quantity" : 1
             },
             {
-                "ingredient" : "Citron Vert",
+                "name" : "Citron Vert",
                 "quantity" : 5
             },
             {
-                "ingredient" : "Lait de Coco",
+                "name" : "Lait de Coco",
                 "quantity" : 100,
                 "unit" : "ml"
             }
@@ -74,29 +74,29 @@ const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Poulet",
+                "name": "Poulet",
                 "quantity" : 1          
             },
             {
-                "ingredient": "Lait de coco",
+                "name": "Lait de coco",
                 "quantity" : 400,
                 "unit" : "ml"
             },
             {
-                "ingredient": "Coulis de tomate",
+                "name": "Coulis de tomate",
                 "quantity" : 25,
                 "unit" : "cl"
             },
             {
-                "ingredient": "Oignon",
+                "name": "Oignon",
                 "quantity" : 1
             },
             {
-                "ingredient": "Poivron rouge",
+                "name": "Poivron rouge",
                 "quantity": 1
             },
             {
-                "ingredient": "Huile d'olive",
+                "name": "Huile d'olive",
                 "quantity": 1,
                "unit": "cuillères à soupe"
             }
@@ -111,29 +111,29 @@ const recipes = [
         "servings": 4,
         "ingredients":[
             {
-                "ingredient": "Riz blanc",
+                "name": "Riz blanc",
                 "quantity": 500,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Thon en miettes",
+                "name": "Thon en miettes",
                 "quantity": 200,
                 "unit": "grammes"
             },{
-                "ingredient": "Tomate",
+                "name": "Tomate",
                 "quantity": 2
             },
             {
-                "ingredient": "Oeuf dur",
+                "name": "Oeuf dur",
                 "quantity": 2
             },
             {
-                "ingredient": "Maïs",
+                "name": "Maïs",
                 "quantity": 300,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Vinaigrette",
+                "name": "Vinaigrette",
                 "quantity": 5,
                 "unit": "cl"
             }
@@ -149,30 +149,30 @@ const recipes = [
         "servings": 4,
         "ingredients":[
            {
-               "ingredient": "Pâte feuilletée",
+               "name": "Pâte feuilletée",
                "quantity": 1 
            },
            {
-               "ingredient": "Thon en miettes",
+               "name": "Thon en miettes",
                "quantity": 130,
                "unit": "grammes"
            },
            {
-                "ingredient": "Tomate",
+                "name": "Tomate",
                 "quantity": 2
            },
            {
-               "ingredient": "Crème fraîche",
+               "name": "Crème fraîche",
                "quantity": 2,
                "unit": "cuillères à soupe"
            },
            {
-               "ingredient": "gruyère râpé",
+               "name": "gruyère râpé",
                "quantity": 100,
                "unit": "grammes"
            },
            {
-                "ingredient": "Moutarde de Dijon",
+                "name": "Moutarde de Dijon",
                 "quantity": 1,
                 "unite": "cuillères à soupe"
            }
@@ -188,29 +188,29 @@ const recipes = [
         "servings": 6,
         "ingredients":[
             {
-                "ingredient": "Pâte brisée",
+                "name": "Pâte brisée",
                 "quantity": 1
             },
             {
-                "ingredient": "Pomme",
+                "name": "Pomme",
                 "quantity": 3
             },
             {
-                "ingredient": "Oeuf",
+                "name": "Oeuf",
                 "quantity": "2"
             },
             {
-                "ingredient":"Crème fraîche",
+                "name":"Crème fraîche",
                 "quantity":25,
                 "unit": "cl"
             },
             {
-                "ingredient": "Sucre en Poudre",
+                "name": "Sucre en Poudre",
                 "quantity": 100,
                 "unit":"grammes"
             },
             {
-                "ingredient": "Sucre vanillé",
+                "name": "Sucre vanillé",
                 "quantity": 1,
                 "unit": "sachets"
 
@@ -226,26 +226,26 @@ const recipes = [
         "servings": 6,
         "ingredients":[
             {
-                "ingredient": "Pâte sablée",
+                "name": "Pâte sablée",
                 "quantity": 1
             }, 
             {
-                "ingredient": "Chocolat au lait",
+                "name": "Chocolat au lait",
                 "quantity": 300,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Crème liquide",
+                "name": "Crème liquide",
                 "quantity": 80,
                 "unit": "cl"
             },
             {
-                "ingredient": "Beurre",
+                "name": "Beurre",
                 "quantity": "30",
                 "unit": "grammes"
             },
             {
-                "ingredient": "Fraise",
+                "name": "Fraise",
                 "quantity": 6
             }
         ],
@@ -259,31 +259,31 @@ const recipes = [
         "servings": 10,
         "ingredients":[
            {
-                "ingredient": "Noix",
+                "name": "Noix",
                 "quantity": "180",
                 "unit": "grammes"
            },
            {
-               "ingredient": "Chocolat noir",
+               "name": "Chocolat noir",
                "quantity": 150,
                "unit": "grammes"
            },
            {
-               "ingredient": "Beurre",
+               "name": "Beurre",
                "quantity": 120,
                "unit": "grammes"
            },
            {
-                "ingredient": "Oeuf",
+                "name": "Oeuf",
                 "quantity": 2
            },
            {
-               "ingredient": "Sucre en Poudre",
+               "name": "Sucre en Poudre",
                "quantity": "110",
                "unit": "grammes"
            },
            {
-                "ingredient": "farine",
+                "name": "farine",
                 "quantity": 90,
                 "unit": "grammes"
            }
@@ -300,25 +300,25 @@ const recipes = [
         "servings": 4,
         "ingredients":[
             {
-                "ingredient": "Concombre",
+                "name": "Concombre",
                 "quantity": 1
             },
             {
-                "ingredient": "Olives"
+                "name": "Olives"
             },
             {
-                "ingredient": "Fromage de chèvre",
+                "name": "Fromage de chèvre",
                 "quantity": 150,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Vinaigre Balsamic"
+                "name": "Vinaigre Balsamic"
             },
             {
-                "ingredient": "Huile d'olive"
+                "name": "Huile d'olive"
             }, 
             {
-                "ingredient": "Basilic"    
+                "name": "Basilic"    
             }
         ],
         "time": 15,
@@ -332,26 +332,26 @@ const recipes = [
         "servings": 4,
         "ingredients":[
             {
-                "ingredient": "Reblochon",
+                "name": "Reblochon",
                 "quantity": "1"
             },
             {
-                "ingredient": "Pommes de terre",
+                "name": "Pommes de terre",
                 "quantity": 4.5,
                 "unit": "kg"
             },
             {
-                "ingredient": "Jambon fumé",
+                "name": "Jambon fumé",
                 "quantity": 2,
                 "unit": "tranches"
             },
             {
-                "ingredient": "Oignon",
+                "name": "Oignon",
                 "quantity": 300,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Vin blanc sec",
+                "name": "Vin blanc sec",
                 "quantity": 30,
                 "unit": "cl"
             }
@@ -366,30 +366,30 @@ const recipes = [
         "servings": 4,
         "ingredients":[
             {
-                "ingredient": "Tomates cerises",
+                "name": "Tomates cerises",
                 "quantity": 250,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Mozzarella",
+                "name": "Mozzarella",
                 "quantity": 150,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Jambon de parme",
+                "name": "Jambon de parme",
                 "quantity": 4,
                 "unit": "tranches"
             }, 
             {
-                "ingredient": "Pommes",
+                "name": "Pommes",
                 "quantity": 1
             },
             {
-                "ingredient": "Salade Verte",
+                "name": "Salade Verte",
                 "quantity": 1
             },
             {
-                "ingredient": "Vinaigrette",
+                "name": "Vinaigrette",
                 "quantity": 5,
                 "unit": "cl"
             }
@@ -404,21 +404,21 @@ const recipes = [
         "servings": 4,
         "ingredients":[
             {
-                "ingredient": "Rhubarbe",
+                "name": "Rhubarbe",
                 "quantity": 160,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Pommes",
+                "name": "Pommes",
                 "quantity": 8
             },
             {
-                "ingredient": "Sucre vanillé",
+                "name": "Sucre vanillé",
                 "quantity": 6,
                 "unit": "sachets"
             },
             {
-                "ingredient": "Eau",
+                "name": "Eau",
                 "quantity" : "0.5",
                 "unit" : "tasses"
             }
@@ -434,27 +434,27 @@ const recipes = [
         "servings": 2,
         "ingredients": [
             {
-                "ingredient": "Mâche",
+                "name": "Mâche",
                 "quantity": 60,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Pommes de terre",
+                "name": "Pommes de terre",
                 "quantity": 200,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Échalote",
+                "name": "Échalote",
                 "quantity": 2
 
             },
             {
-                "ingredient": "Vinaigre de cidre",
+                "name": "Vinaigre de cidre",
                 "quantity": 1,
                 "unit":"cuillère à soupe"
             },
             {
-                "ingredient": "huile d'olive",
+                "name": "huile d'olive",
                 "quantity": 2,
                 "unit": "cuillère à soupe"
             }
@@ -470,30 +470,30 @@ const recipes = [
         "servings": 2,
         "ingredients": [
             {
-                "ingredient": "Saucisse bretonne ou de Toulouse",
+                "name": "Saucisse bretonne ou de Toulouse",
                 "quantity": 2
             },
             {
-                "ingredient": "Farine de blé noir",
+                "name": "Farine de blé noir",
                 "quantity": 130,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Oeuf",
+                "name": "Oeuf",
                 "quantity": 1
 
             },
             {
-                "ingredient": "Fromage à raclette",
+                "name": "Fromage à raclette",
                 "quantity": 300,
                 "unit":"grammes"
             },
             {
-                "ingredient": "Oignon",
+                "name": "Oignon",
                 "quantity": 1
             },
             {
-                "ingredient": "Beurre",
+                "name": "Beurre",
                 "quantity": 75,
                 "unit": "grammes"
             }
@@ -510,31 +510,31 @@ const recipes = [
         "servings": 10,
         "ingredients": [
             {
-                "ingredient": "Oeuf",
+                "name": "Oeuf",
                 "quantity": 3
             },
             {
-                "ingredient": "Farine",
+                "name": "Farine",
                 "quantity": 250,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Lait",
+                "name": "Lait",
                 "quantity": 600,
                 "unit": "ml"
             },
             {
-                "ingredient": "Beurre salé",
+                "name": "Beurre salé",
                 "quantity": 30,
                 "unit":"grammes"
             },
             {
-                "ingredient": "Chocolat au lait",
+                "name": "Chocolat au lait",
                 "quantity": 100,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Banane",
+                "name": "Banane",
                 "quantity": 4
             }
         ],
@@ -549,27 +549,27 @@ const recipes = [
         "servings": 2,
         "ingredients": [
             {
-                "ingredient": "Tomate",
+                "name": "Tomate",
                 "quantity": 500,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Mozzarella",
+                "name": "Mozzarella",
                 "quantity": 250,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Pennes",
+                "name": "Pennes",
                 "quantity": 500,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Basilic",
+                "name": "Basilic",
                 "quantity": 1,
                 "unit":"tiges"
             },
             {
-                "ingredient": "huile d'olives",
+                "name": "huile d'olives",
                 "quantity": 2,
                 "unit": "cuillère à soupe"
             }
@@ -585,25 +585,25 @@ const recipes = [
         "servings": 6,
         "ingredients": [
             {
-                "ingredient": "Fraise",
+                "name": "Fraise",
                 "quantity": 500,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Pastèque",
+                "name": "Pastèque",
                 "quantity": 0.5
             },
             {
-                "ingredient": "Jus de citron",
+                "name": "Jus de citron",
                 "quantity": 1,
                 "unit":"cuillères à soupe"
             },
             {
-                "ingredient": "Glaçons",
+                "name": "Glaçons",
                 "quantity": 8
             },
             {
-                "ingredient": "Menthe"
+                "name": "Menthe"
             }
         ],
         "time": 15,
@@ -617,16 +617,16 @@ const recipes = [
         "servings": 5,
         "ingredients": [
             {
-                "ingredient": "Ananas",
+                "name": "Ananas",
                 "quantity": 1
             },
             {
-                "ingredient": "Glace à la vanille",
+                "name": "Glace à la vanille",
                 "quantity": 500,
                 "unit": "ml"
             },
             {
-                "ingredient": "Lait",
+                "name": "Lait",
                 "quantity": 50,
                 "unit": "cl"
             }
@@ -642,25 +642,25 @@ const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Kiwi",
+                "name": "Kiwi",
                 "quantity": 4
             },
             {
-                "ingredient": "Citron",
+                "name": "Citron",
                 "quantity": 1
             },
             {
-                "ingredient": "Lait",
+                "name": "Lait",
                 "quantity": 1,
                 "unit": "litres"
             },
             {
-                "ingredient": "Sucre glace",
+                "name": "Sucre glace",
                 "quantity": 30,
                 "unit":"grammes"
             },
             {
-                "ingredient": "Banane",
+                "name": "Banane",
                 "quantity": 1
             }
         ],
@@ -675,27 +675,27 @@ const recipes = [
         "servings": 5,
         "ingredients": [
             {
-                "ingredient": "Tagliatelles",
+                "name": "Tagliatelles",
                 "quantity": 500,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Lardons",
+                "name": "Lardons",
                 "quantity": 150,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Crème fraîche",
+                "name": "Crème fraîche",
                 "quantity": 200,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Parmesan",
+                "name": "Parmesan",
                 "quantity": 100,
                 "unit":"grammes"
             },
             {
-                "ingredient": "huile d'olive",
+                "name": "huile d'olive",
                 "quantity": 1,
                 "unit": "cuillères à soupe"
             }
@@ -711,31 +711,31 @@ const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Spaghettis",
+                "name": "Spaghettis",
                 "quantity": 400,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Oignon",
+                "name": "Oignon",
                 "quantity": 2
             },
             {
-                "ingredient": "Coulis de tomate",
+                "name": "Coulis de tomate",
                 "quantity": 300,
                 "unit":"grammes"
             },
             {
-                "ingredient": "Viande hachée 1% de matière grasse",
+                "name": "Viande hachée 1% de matière grasse",
                 "quantity": 400,
                 "unit":"grammes"
             },
             {
-                "ingredient": "Vin rouge",
+                "name": "Vin rouge",
                 "quantity": 20,
                 "unit": "cl"
             },
             {
-                "ingredient": "Crème fraîche",
+                "name": "Crème fraîche",
                 "quantity" : 1,
                 "unit": "cuillères à soupe"
             }
@@ -751,26 +751,26 @@ const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Beurre",
+                "name": "Beurre",
                 "quantity": 160,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Chocolat noir",
+                "name": "Chocolat noir",
                 "quantity": 200,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Farine",
+                "name": "Farine",
                 "quantity": 50,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Oeuf",
+                "name": "Oeuf",
                 "quantity": 4
             },
             {
-                "ingredient": "Sucre",
+                "name": "Sucre",
                 "quantity": 150,
                 "unit": "grammes"
             }
@@ -786,31 +786,31 @@ const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Pâte brisée",
+                "name": "Pâte brisée",
                 "quantity": 200,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Lardons",
+                "name": "Lardons",
                 "quantity": 200,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Beurre",
+                "name": "Beurre",
                 "quantity": 30,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Oeuf",
+                "name": "Oeuf",
                 "quantity": 3
             },
             {
-                "ingredient": "Crème Fraîche",
+                "name": "Crème Fraîche",
                 "quantity": 20,
                 "unit": "cl"
             },
             {
-                "ingredient": "Lait",
+                "name": "Lait",
                 "quantity": 20,
                 "unit": "cl"
             }
@@ -826,30 +826,30 @@ const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Thon en miettes",
+                "name": "Thon en miettes",
                 "quantity": 160,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Maïs",
+                "name": "Maïs",
                 "quantity": 60,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Tomate",
+                "name": "Tomate",
                 "quantity": 1
             },
             {
-                "ingredient": "Concombre",
+                "name": "Concombre",
                 "quantity": 0.5
             },
             {
-                "ingredient": "Macaronis",
+                "name": "Macaronis",
                 "quantity": 300,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Mayonnaise",
+                "name": "Mayonnaise",
                 "quantity": 2,
                 "unit": "cuillères à soupe"
             }
@@ -865,27 +865,27 @@ const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Sucre",
+                "name": "Sucre",
                 "quantity": 100,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Beurre",
+                "name": "Beurre",
                 "quantity": 100,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Farine",
+                "name": "Farine",
                 "quantity": 100,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Chocolat noir en pépites",
+                "name": "Chocolat noir en pépites",
                 "quantity": 100,
                 "unit":"grammes"
             },
             {
-                "ingredient": "Oeuf",
+                "name": "Oeuf",
                 "quantity": 1
             }
         ],
@@ -900,22 +900,22 @@ const recipes = [
         "servings": 2,
         "ingredients": [
             {
-                "ingredient": "Tomate",
+                "name": "Tomate",
                 "quantity": 6
             },
             {
-                "ingredient": "Pommes de terre",
+                "name": "Pommes de terre",
                 "quantity": 1
             },
             {
-                "ingredient": "Huile d'olives"
+                "name": "Huile d'olives"
             },
             {
-                "ingredient": "Oignon",
+                "name": "Oignon",
                 "quantity": 1
             },
             {
-                "ingredient": "Ail",
+                "name": "Ail",
                 "quantity": 1,
                 "unit": "gousses"
             }
@@ -931,25 +931,25 @@ const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Oseille",
+                "name": "Oseille",
                 "quantity": 2
             },
             {
-                "ingredient": "Oeuf",
+                "name": "Oeuf",
                 "quantity": 1
             },
             {
-                "ingredient": "Crème fraîche",
+                "name": "Crème fraîche",
                 "quantity": 4,
                 "unit": "cuillère à soupe"
             },
             {
-                "ingredient": "Vermicelles",
+                "name": "Vermicelles",
                 "quantity": 1,
                 "unit":"verres"
             },
             {
-                "ingredient": "Beurre salé",
+                "name": "Beurre salé",
                 "quantity": 50,
                 "unit": "grammes"
             }
@@ -965,26 +965,26 @@ const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Poireau",
+                "name": "Poireau",
                 "quantity": 3
             },
             {
-                "ingredient": "Pommes de terre",
+                "name": "Pommes de terre",
                 "quantity": 400,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Oseille",
+                "name": "Oseille",
                 "quantity": 75,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Beurre",
+                "name": "Beurre",
                 "quantity": 50,
                 "unit":"grammes"
             },
             {
-                "ingredient": "Crème fraîche",
+                "name": "Crème fraîche",
                 "quantity": 10,
                 "unit": "cl"
             }
@@ -1000,24 +1000,24 @@ const recipes = [
         "servings": 2,
         "ingredients": [
             {
-                "ingredient": "Pois chiches",
+                "name": "Pois chiches",
                 "quantity": 1,
                 "unit": "boites"
             },
             {
-                "ingredient": "Ail",
+                "name": "Ail",
                 "quantity": 1,
                 "unit": "gousses"
             },
             {
-                "ingredient": "Citron",
+                "name": "Citron",
                 "quantity": 2
             },
             {
-                "ingredient": "Huile d'olive"
+                "name": "Huile d'olive"
             },
             {
-                "ingredient": "Paprika"
+                "name": "Paprika"
             }
         ],
         "time": 30,
@@ -1031,16 +1031,16 @@ const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Pois Cassé",
+                "name": "Pois Cassé",
                 "quantity": 500,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Oignon",
+                "name": "Oignon",
                 "quantity": 1
             },
             {
-                "ingredient": "Ail",
+                "name": "Ail",
                 "quantity": 2,
                 "unit": "gousses"
             }
@@ -1056,25 +1056,25 @@ const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Carotte",
+                "name": "Carotte",
                 "quantity": 2
             },
             {
-                "ingredient": "Pommes de terre",
+                "name": "Pommes de terre",
                 "quantity": 2
             },
             {
-                "ingredient": "Haricots verts",
+                "name": "Haricots verts",
                 "quantity": 150,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Petits poids",
+                "name": "Petits poids",
                 "quantity": 100,
                 "unit":"grammes"
             },
             {
-                "ingredient": "Lardons",
+                "name": "Lardons",
                 "quantity": 150,
                 "unit": "grammes"
             }
@@ -1090,32 +1090,32 @@ const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Pain de mie",
+                "name": "Pain de mie",
                 "quantity": 8,
                 "unit": "tranches"
             },
             {
-                "ingredient": "Blanc de dinde",
+                "name": "Blanc de dinde",
                 "quantity": 4,
                 "unit": "tranches"
             },
             {
-                "ingredient": "Emmental",
+                "name": "Emmental",
                 "quantity": 8,
                 "unit": "tranches"
             },
             {
-                "ingredient": "Gruyère",
+                "name": "Gruyère",
                 "quantity": 100,
                 "unit":"grammes"
             },
             {
-                "ingredient": "Lait",
+                "name": "Lait",
                 "quantity": 5,
                 "unit": "cl"
             },
             {
-                "ingredient": "Noix de muscade",
+                "name": "Noix de muscade",
                 "quantity": 1,
                 "unit": "pincées"
             }
@@ -1131,26 +1131,26 @@ const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Pain de mie",
+                "name": "Pain de mie",
                 "quantity": 8,
                 "unit": "tranches"
             },
             {
-                "ingredient": "Saumon Fumé",
+                "name": "Saumon Fumé",
                 "quantity": 4,
                 "unit": "tranches"
             },
             {
-                "ingredient": "Feuilles de laitue",
+                "name": "Feuilles de laitue",
                 "quantity": 4
             },
             {
-                "ingredient": "Fromage blanc",
+                "name": "Fromage blanc",
                 "quantity": 4,
                 "unit":"cuillères à soupe"
             },
             {
-                "ingredient": "Jus de citron",
+                "name": "Jus de citron",
                 "quantity": 1,
                 "unit": "cuillères à soupe"
             }
@@ -1166,20 +1166,20 @@ const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Patate douce",
+                "name": "Patate douce",
                 "quantity": 800,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Crème fraîche",
+                "name": "Crème fraîche",
                 "quantity": 20,
                 "unit": "cl"
             },
             {
-                "ingredient": "Huile d'olive"
+                "name": "Huile d'olive"
             },
             {
-                "ingredient": "Orange",
+                "name": "Orange",
                 "quantity": 1
             }
         ],
@@ -1194,30 +1194,30 @@ const recipes = [
         "servings": 2,
         "ingredients": [
             {
-                "ingredient": "Carotte",
+                "name": "Carotte",
                 "quantity": 6
             },
             {
-                "ingredient": "Pommes de terre",
+                "name": "Pommes de terre",
                 "quantity": 1
             },
             {
-                "ingredient": "Beurre",
+                "name": "Beurre",
                 "quantity": 20,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Crème fraîche",
+                "name": "Crème fraîche",
                 "quantity": 2,
                 "unit":"cuillères à soupe"
             },
             {
-                "ingredient": "Cumin",
+                "name": "Cumin",
                 "quantity": 1,
                 "unit": "cuillères à café"
             },
             {
-                "ingredient": "Noix de muscade",
+                "name": "Noix de muscade",
                 "quantity": 1,
                 "unit": "pincées"
             }
@@ -1233,30 +1233,30 @@ const recipes = [
         "servings": 2,
         "ingredients": [
             {
-                "ingredient": "Courgette",
+                "name": "Courgette",
                 "quantity": 2
             },
             {
-                "ingredient": "Fromage de chèvre",
+                "name": "Fromage de chèvre",
                 "quantity": 4
             },
             {
-                "ingredient": "Lait",
+                "name": "Lait",
                 "quantity": 25,
                 "unit": "cl"
             },
             {
-                "ingredient": "Lasagnes",
+                "name": "Lasagnes",
                 "quantity": 5,
                 "unit":"feuilles"
             },
             {
-                "ingredient": "Gruyère",
+                "name": "Gruyère",
                 "quantity": 40,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Maïzena",
+                "name": "Maïzena",
                 "quantity": 1,
                 "unit": "cuillères à soupe"
             }
@@ -1272,30 +1272,30 @@ const recipes = [
         "servings": 2,
         "ingredients": [
             {
-                "ingredient": "Courgette",
+                "name": "Courgette",
                 "quantity": 2
             },
             {
-                "ingredient": "Viande hachée",
+                "name": "Viande hachée",
                 "quantity": 600,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Huile d'olives",
+                "name": "Huile d'olives",
                 "quantity": 25,
                 "unit": "cl"
             },
             {
-                "ingredient": "Oignon",
+                "name": "Oignon",
                 "quantity": 1
             },
             {
-                "ingredient": "Coulis de tomates",
+                "name": "Coulis de tomates",
                 "quantity": 20,
                 "unit": "cl"
             },
             {
-                "ingredient": "Gruyère",
+                "name": "Gruyère",
                 "quantity": 50,
                 "unit": "grammes"
             }
@@ -1312,21 +1312,21 @@ const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Pain",
+                "name": "Pain",
                 "quantity": 6,
                 "unit":"tranches"
             },
             {
-                "ingredient": "Lait",
+                "name": "Lait",
                 "quantity": 25,
                 "unit": "cl"
             },
             {
-                "ingredient": "Oeuf",
+                "name": "Oeuf",
                 "quantity": 3
             },
             {
-                "ingredient": "Sucre roux",
+                "name": "Sucre roux",
                 "quantity": 75,
                 "unit": "grammes"
             }
@@ -1342,21 +1342,21 @@ const recipes = [
         "servings": 40,
         "ingredients": [
             {
-                "ingredient": "Pomme",
+                "name": "Pomme",
                 "quantity": 2
             },
             {
-                "ingredient": "Farine",
+                "name": "Farine",
                 "quantity": 100,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Beurre",
+                "name": "Beurre",
                 "quantity": 50,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Sucre roux",
+                "name": "Sucre roux",
                 "quantity": 80,
                 "unit":"grammes"
             }
@@ -1372,21 +1372,21 @@ const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Eau",
+                "name": "Eau",
                 "quantity": 1,
                 "unit": "Litres"
             },
             {
-                "ingredient": "Citron Vert",
+                "name": "Citron Vert",
                 "quantity": 3
             },
             {
-                "ingredient": "Sucre en poudre",
+                "name": "Sucre en poudre",
                 "quantity": 4,
                 "unit":"cuillères à café"
             },
             {
-                "ingredient": "Bicarbonate",
+                "name": "Bicarbonate",
                 "quantity": 1,
                 "unit": "cuillères à café"
             }
@@ -1402,16 +1402,16 @@ const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Oeuf",
+                "name": "Oeuf",
                 "quantity": 3
             },
             {
-                "ingredient": "Chocolat noir",
+                "name": "Chocolat noir",
                 "quantity": 100,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Sucre vanillé",
+                "name": "Sucre vanillé",
                 "quantity": 1,
                 "unit": "sachets"
             }
@@ -1427,21 +1427,21 @@ const recipes = [
         "servings": 3,
         "ingredients": [
             {
-                "ingredient": "Chocolat",
+                "name": "Chocolat",
                 "quantity": 200,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Oeuf",
+                "name": "Oeuf",
                 "quantity": 3
             },
             {
-                "ingredient": "Poires au jus",
+                "name": "Poires au jus",
                 "quantity": 0.5,
                 "unit" : "boites"
             },
             {
-                "ingredient": "Boudoirs",
+                "name": "Boudoirs",
                 "quantity": 15
             }
         ],
@@ -1456,26 +1456,26 @@ const recipes = [
         "servings": 6,
         "ingredients": [
             {
-                "ingredient": "Pâte brisée",
+                "name": "Pâte brisée",
                 "quantity": 200,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Sucre",
+                "name": "Sucre",
                 "quantity": 150,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Beurre fondu",
+                "name": "Beurre fondu",
                 "quantity": 100,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Oeuf",
+                "name": "Oeuf",
                 "quantity": 3
             },
             {
-                "ingredient": "Citron"
+                "name": "Citron"
             }
         ],
         "time": 50,
@@ -1489,27 +1489,27 @@ const recipes = [
         "servings": 6,
         "ingredients": [
             {
-                "ingredient": "Lait",
+                "name": "Lait",
                 "quantity": 1,
                 "unit": "litres"
             },
             {
-                "ingredient": "Chocolat",
+                "name": "Chocolat",
                 "quantity": 200,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Sucre",
+                "name": "Sucre",
                 "quantity": 100,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Beurre",
+                "name": "Beurre",
                 "quantity": 50,
                 "unit":"grammes"
             },
             {
-                "ingredient": "farine",
+                "name": "farine",
                 "quantity": 40,
                 "unit": "grammes"
             }
@@ -1525,21 +1525,21 @@ const recipes = [
         "servings": 8,
         "ingredients": [
             {
-                "ingredient": "Lait",
+                "name": "Lait",
                 "quantity": 50,
                 "unit": "cl"
             },
             {
-                "ingredient": "Oeuf",
+                "name": "Oeuf",
                 "quantity": 2
             },
             {
-                "ingredient": "Farine",
+                "name": "Farine",
                 "quantity": 30,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Sucre",
+                "name": "Sucre",
                 "quantity": 80,
                 "unit":"grammes"
             }
@@ -1555,31 +1555,31 @@ const recipes = [
         "servings": 6,
         "ingredients": [
             {
-                "ingredient": "Farine",
+                "name": "Farine",
                 "quantity": 250,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Sucre",
+                "name": "Sucre",
                 "quantity": 150,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Sucre vanillé",
+                "name": "Sucre vanillé",
                 "quantity": 1,
                 "unit": "sachets"
             },
             {
-                "ingredient": "Oeuf",
+                "name": "Oeuf",
                 "quantity": 4
             },
             {
-                "ingredient": "Lait",
+                "name": "Lait",
                 "quantity": 1,
                 "unit": "litre"
             },
             {
-                "ingredient": "Pruneaux",
+                "name": "Pruneaux",
                 "quantity": 100,
                 "unit": "grammes"
             }
@@ -1595,22 +1595,22 @@ const recipes = [
         "servings": 6,
         "ingredients": [
             {
-                "ingredient": "Jus de citron",
+                "name": "Jus de citron",
                 "quantity": 100,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Mascarpone",
+                "name": "Mascarpone",
                 "quantity": 250,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Sucre",
+                "name": "Sucre",
                 "quantity": 100,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Crème Fraîche",
+                "name": "Crème Fraîche",
                 "quantity": 20,
                 "unit":"cl"
             }
@@ -1626,26 +1626,26 @@ const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Pâte à pizza",
+                "name": "Pâte à pizza",
                 "quantity": 1
             },
             {
-                "ingredient": "Tomates pelées",
+                "name": "Tomates pelées",
                 "quantity": 1,
                 "unit": "boites"
             },
             {
-                "ingredient": "Lardons",
+                "name": "Lardons",
                 "quantity": 1,
                 "unit": "barquettes"
             },
             {
-                "ingredient": "Champignons de paris",
+                "name": "Champignons de paris",
                 "quantity": 1,
                 "unit":"boites"
             },
             {
-                "ingredient": "Gruyère",
+                "name": "Gruyère",
                 "quantity": 200,
                 "unit": "grammes"
             }
@@ -1661,24 +1661,24 @@ const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "ingredient": "Bananes",
+                "name": "Bananes",
                 "quantity": 2
             },
             {
-                "ingredient": "Kiwis",
+                "name": "Kiwis",
                 "quantity": 3
             },
             {
-                "ingredient": "Mangue",
+                "name": "Mangue",
                 "quantity": 1
             },
             {
-                "ingredient": "Ananas",
+                "name": "Ananas",
                 "quantity": 4,
                 "unit":"tranches"
             },
             {
-                "ingredient": "Miel",
+                "name": "Miel",
                 "quantity": 2,
                 "unit": "cuillères à soupe"
             }
@@ -1694,26 +1694,26 @@ const recipes = [
         "servings": 2,
         "ingredients": [
             {
-                "ingredient": "Pâte feuilletée",
+                "name": "Pâte feuilletée",
                 "quantity": 400,
                 "unit":"grammes"
             },
             {
-                "ingredient": "Oeuf",
+                "name": "Oeuf",
                 "quantity": 6
             },
             {
-                "ingredient": "Poudre d'amendes",
+                "name": "Poudre d'amendes",
                 "quantity": 500,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Beurre",
+                "name": "Beurre",
                 "quantity": 500,
                 "unit": "grammes"
             },
             {
-                "ingredient": "Sucre glace",
+                "name": "Sucre glace",
                 "quantity": 500,
                 "unit":"grammes"
             }
