@@ -1,6 +1,6 @@
 import { recipes } from "../../data/recipes.js";
 
-function displayData(recipes) {
+export function displayData(recipes) {
     const recipesSection = document.querySelector(".recipes_section");
     recipes.forEach((recipe) => {
         const recipeModel = recipeFactory(recipe);
@@ -9,7 +9,7 @@ function displayData(recipes) {
     });
 }
 
-async function init() {
+function init() {
     displayData(recipes);
 }
 

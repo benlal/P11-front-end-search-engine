@@ -26,14 +26,50 @@
         <!-- Search bar -->
         <div class="row">
             <form>
-                <div class="form-group d-flex p-4 rounded grey-background justify-content-between">
-                    <div><input class="grey-background  p-0 border-0" type="search" placeholder="Rechercher une recette"
-                            aria-label="Champ de recherche"></div>
-                    <div class="search-icon"><button class="grey-background border-0 text-dark p-0" type="submit"><i
-                                class="fa-solid fa-magnifying-glass"></i></button></div>
+                <div class="form-group d-flex p-4 rounded grey-background justify-content-between align-items-center">
+                    <input size="100%" class="main-searchbar searchbar p-0 border-0 search-bar_input" type="search"
+                        placeholder="Rechercher une recette" aria-label="Champ de recherche">
+                    <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </form>
         </div>
+
+        <!-- filter section -->
+        <div id="filter-section">
+            <div class="filter-button ingredients-button closed-button">
+                <div class="filter-button_title">
+                    <span class="filter-title">Ingrédients</span>
+                    <input size="80" class="filter-searchbar searchbar p-0 border-0 hidden" type="search"
+                        placeholder="Rechercher un ingrédient" aria-label="Champ de recherche">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <ul class="filter-list hidden">
+                    <li>Banane</li>
+                </ul>
+            </div>
+            <div class="filter-button appliance-button closed-button">
+                <div class="filter-button_title">
+                    <span class="filter-title">Appareils</span>
+                    <input size="100%" class="filter-searchbar searchbar p-0 border-0 hidden" type="search"
+                        placeholder="Rechercher un ingrédient" aria-label="Champ de recherche">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <ul class="filter-list hidden">
+                </ul>
+            </div>
+            <div class="filter-button ustensils-button closed-button">
+                <div class="filter-button_title">
+                    <span class="filter-title">Ustensiles</span>
+                    <input size="100%" class="filter-searchbar searchbar p-0 border-0 hidden" type="search"
+                        placeholder="Rechercher un ingrédient" aria-label="Champ de recherche">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <ul class="filter-list hidden">
+                </ul>
+            </div>
+        </div>
+
+
         <!-- Meals galery -->
         <div class="recipes_section"></div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -42,6 +78,7 @@
         <script src="scripts/factories/recipe.js"></script>
         <script type="module" src="scripts/pages/index.js"></script>
         <script type="module" src="data/recipes.js"></script>
+        <script type="module" src="/scripts/utils/searchBar.js"></script>
 </body>
 
 </html>
