@@ -39,7 +39,7 @@ function handleSearchBarEvents() {
             }
             )
             displayData(filteredRecipes);
-            console.log(filteredRecipes);
+            return filteredRecipes;
         }
         else {
             recipesSection.innerHTML = '';
@@ -50,23 +50,49 @@ function handleSearchBarEvents() {
 
 
 
+function ingredientsCompiling(recipes) {
+    const compiledIngredients = [];
+    recipes.forEach((recipe) => {
+        recipe.ingredients.forEach((ingredient) => {
+            if (compiledIngredients.includes(ingredient.name) == false) {
+                compiledIngredients.push(ingredient.name);
+            }
+        })
+    })
+    compiledIngredients.sort();
+    return compiledIngredients;
+}
+
+
+function displayIngredientsList(filteredRecipes) {
+    const compiledIngredients = ingredientsCompiling(filteredRecipes);
+    console.log(compiledIngredients);
+    // compiledIngredients.forEach((ingredient) => {
+    //     const listItem = document.createElement('li');
+    //     const filterList = document.querySelector('.filter-list');
+    //     listItem.innerHTML = `${ingredient}`;
+    //     filterList.appendChild(listItem);
+    //   })
+}
+
 //opens list of filters
-function setEventsToArrows() {
+function setEventsToArrows(compiledIngredients) {
     let arrows = document.getElementsByClassName("fa-angle-down");
     for (let i = 0; i < arrows.length; i++) {
-        arrows[i].addEventListener('click', function () {
-            displayList();
-            ingredientsCompiling();
+        arrows[i].addEventListener('click', function (event) {
+            displayList(event.target);
+            ingredientsCompiling(recipes);
+            displayIngredientsList(compiledIngredients);
         });
     }
 }
 
-function displayList() {
-    const filterButton = document.querySelector(".filter-button");
-    const filterTitle = document.querySelector(".filter-title");
-    const filterSearchbar = document.querySelector(".filter-searchbar");
-    const sortArrow = document.querySelector(".fa-angle-down");
-    const filterList = document.querySelector(".filter-list");
+function displayList(targetedButton) {
+    const sortArrow = targetedButton;
+    const filterButton = sortArrow.closest(".filter-button");
+    const filterTitle = filterButton.querySelector(".filter-title");
+    const filterSearchbar = filterButton.querySelector(".filter-searchbar");
+    const filterList = filterButton.querySelector(".filter-list");
 
     //checks if list is closed the opens it
     if (filterButton.classList.contains("closed-button")) {
@@ -77,19 +103,18 @@ function displayList() {
         sortArrow.style.transform = 'rotate(180deg)';
     }
     else {
-        closeList();
+        closeList(targetedButton);
     }
 }
 
 
 //closes list of filters
-function closeList() {
-    const filterButton = document.querySelector(".filter-button");
-    const filterTitle = document.querySelector(".filter-title");
-    const filterSearchbar = document.querySelector(".filter-searchbar");
-    const sortArrow = document.querySelector(".fa-angle-down");
-    const filterList = document.querySelector(".filter-list");
-
+function closeList(targetedButton) {
+    const sortArrow = targetedButton;
+    const filterButton = sortArrow.closest(".filter-button");
+    const filterTitle = filterButton.querySelector(".filter-title");
+    const filterSearchbar = filterButton.querySelector(".filter-searchbar");
+    const filterList = filterButton.querySelector(".filter-list");
 
     filterButton.classList.add("closed-button");
     filterSearchbar.classList.add("hidden");
@@ -98,14 +123,6 @@ function closeList() {
     sortArrow.style.transform = 'rotate(0deg)';
 }
 
-function ingredientsCompiling() {
-    let compiledIngredients;
-    recipes.forEach((recipe) => {
-        recipe.ingredients.forEach((ingredient) => {
-            compiledIngredients.push(ingredient);
-        })
-    })
-}
 
 
 function init() {
