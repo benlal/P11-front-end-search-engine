@@ -39,7 +39,6 @@ function handleSearchBarEvents() {
             }
             )
             displayData(filteredRecipes);
-            return filteredRecipes;
         }
         else {
             recipesSection.innerHTML = '';
@@ -65,14 +64,14 @@ function ingredientsCompiling(recipes) {
 
 
 function displayIngredientsList(filteredRecipes) {
-    const compiledIngredients = ingredientsCompiling(filteredRecipes);
+    // const compiledIngredients = ingredientsCompiling(filteredRecipes);
     console.log(compiledIngredients);
-    // compiledIngredients.forEach((ingredient) => {
-    //     const listItem = document.createElement('li');
-    //     const filterList = document.querySelector('.filter-list');
-    //     listItem.innerHTML = `${ingredient}`;
-    //     filterList.appendChild(listItem);
-    //   })
+    compiledIngredients.forEach((ingredient) => {
+        const listItem = document.createElement('li');
+        const filterList = document.querySelector('.filter-list');
+        listItem.innerHTML = `${ingredient}`;
+        filterList.appendChild(listItem);
+      })
 }
 
 //opens list of filters
@@ -81,7 +80,8 @@ function setEventsToArrows(compiledIngredients) {
     for (let i = 0; i < arrows.length; i++) {
         arrows[i].addEventListener('click', function (event) {
             displayList(event.target);
-            ingredientsCompiling(recipes);
+            // ingredientsCompiling(recipes);
+            const compiledIngredients = ingredientsCompiling(filteredRecipes);
             displayIngredientsList(compiledIngredients);
         });
     }
