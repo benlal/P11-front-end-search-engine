@@ -59,7 +59,7 @@ export const recipes = [
                 "quantity" : 5
             },
             {
-                "name" : "Lait de Coco",
+                "name" : "Lait de coco",
                 "quantity" : 100,
                 "unit" : "ml"
             }
@@ -167,7 +167,7 @@ export const recipes = [
                "unit": "cuillères à soupe"
            },
            {
-               "name": "gruyère râpé",
+               "name": "Gruyère râpé",
                "quantity": 100,
                "unit": "grammes"
            },
@@ -192,7 +192,7 @@ export const recipes = [
                 "quantity": 1
             },
             {
-                "name": "Pomme",
+                "name": "Pommes",
                 "quantity": 3
             },
             {
@@ -205,7 +205,7 @@ export const recipes = [
                 "unit": "cl"
             },
             {
-                "name": "Sucre en Poudre",
+                "name": "Sucre en poudre",
                 "quantity": 100,
                 "unit":"grammes"
             },
@@ -278,12 +278,12 @@ export const recipes = [
                 "quantity": 2
            },
            {
-               "name": "Sucre en Poudre",
+               "name": "Sucre en poudre",
                "quantity": "110",
                "unit": "grammes"
            },
            {
-                "name": "farine",
+                "name": "Farine",
                 "quantity": 90,
                 "unit": "grammes"
            }
@@ -312,7 +312,7 @@ export const recipes = [
                 "unit": "grammes"
             },
             {
-                "name": "Vinaigre Balsamic"
+                "name": "Vinaigre balsamique"
             },
             {
                 "name": "Huile d'olive"
@@ -322,7 +322,7 @@ export const recipes = [
             }
         ],
         "time": 15,
-        "description":"Peler le concombre le couper 2, retirer les pépins. Couper les olives en morceaux, ainsi que le fromage de chèvre. Ajouter le basilic ainsi que le vinaigre balsamic et l'huile d'olives à votre gout.",
+        "description":"Peler le concombre le couper 2, retirer les pépins. Couper les olives en morceaux, ainsi que le fromage de chèvre. Ajouter le basilic ainsi que le vinaigre balsamique et l'huile d'olive à votre gout.",
         "appliance":"Saladier",
         "ustensils":["cuillère en bois", "couteau"]
     },
@@ -454,7 +454,7 @@ export const recipes = [
                 "unit":"cuillère à soupe"
             },
             {
-                "name": "huile d'olive",
+                "name": "Huile d'olive",
                 "quantity": 2,
                 "unit": "cuillère à soupe"
             }
@@ -534,7 +534,7 @@ export const recipes = [
                 "unit": "grammes"
             },
             {
-                "name": "Banane",
+                "name": "Bananes",
                 "quantity": 4
             }
         ],
@@ -569,7 +569,7 @@ export const recipes = [
                 "unit":"tiges"
             },
             {
-                "name": "huile d'olives",
+                "name": "Huile d'olive",
                 "quantity": 2,
                 "unit": "cuillère à soupe"
             }
@@ -642,7 +642,7 @@ export const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "name": "Kiwi",
+                "name": "Kiwis",
                 "quantity": 4
             },
             {
@@ -660,7 +660,7 @@ export const recipes = [
                 "unit":"grammes"
             },
             {
-                "name": "Banane",
+                "name": "Bananes",
                 "quantity": 1
             }
         ],
@@ -695,7 +695,7 @@ export const recipes = [
                 "unit":"grammes"
             },
             {
-                "name": "huile d'olive",
+                "name": "Huile d'olive",
                 "quantity": 1,
                 "unit": "cuillères à soupe"
             }
@@ -805,7 +805,7 @@ export const recipes = [
                 "quantity": 3
             },
             {
-                "name": "Crème Fraîche",
+                "name": "Crème fraîche",
                 "quantity": 20,
                 "unit": "cl"
             },
@@ -908,7 +908,7 @@ export const recipes = [
                 "quantity": 1
             },
             {
-                "name": "Huile d'olives"
+                "name": "Huile d'olive"
             },
             {
                 "name": "Oignon",
@@ -1031,7 +1031,7 @@ export const recipes = [
         "servings": 4,
         "ingredients": [
             {
-                "name": "Pois Cassé",
+                "name": "Pois cassés",
                 "quantity": 500,
                 "unit": "grammes"
             },
@@ -1069,7 +1069,7 @@ export const recipes = [
                 "unit": "grammes"
             },
             {
-                "name": "Petits poids",
+                "name": "Petits pois",
                 "quantity": 100,
                 "unit":"grammes"
             },
@@ -1121,7 +1121,7 @@ export const recipes = [
             }
         ],
         "time": 20,
-        "description":"Beurrer les tranches de pain, ajouter entre 2 tranches de pain de mie 1 tranche d’emmental, une de blanc de dinde, et une autre d'emmental. Dans un récipient, mélanger le gruyère rappé avec le lait et la noix de muscade. Mettre sur les croque monsieur. Placer au four durant 10 minutes.",
+        "description":"Beurrer les tranches de pain, ajouter entre 2 tranches de pain de mie 1 tranche d’emmental, une de blanc de dinde, et une autre d'emmental. Dans un récipient, mélanger le gruyère râpé avec le lait et la noix de muscade. Mettre sur les croque monsieur. Placer au four durant 10 minutes.",
         "appliance": "Four",
         "ustensils":["râpe à fromage", "cuillère à Soupe", "couteau"]
     },
@@ -1281,7 +1281,7 @@ export const recipes = [
                 "unit": "grammes"
             },
             {
-                "name": "Huile d'olives",
+                "name": "Huile d'olive",
                 "quantity": 25,
                 "unit": "cl"
             },
@@ -1342,7 +1342,7 @@ export const recipes = [
         "servings": 40,
         "ingredients": [
             {
-                "name": "Pomme",
+                "name": "Pommes",
                 "quantity": 2
             },
             {
@@ -1509,7 +1509,7 @@ export const recipes = [
                 "unit":"grammes"
             },
             {
-                "name": "farine",
+                "name": "Farine",
                 "quantity": 40,
                 "unit": "grammes"
             }
@@ -1610,7 +1610,7 @@ export const recipes = [
                 "unit": "grammes"
             },
             {
-                "name": "Crème Fraîche",
+                "name": "Crème fraîche",
                 "quantity": 20,
                 "unit":"cl"
             }

@@ -163,7 +163,8 @@ h5 {
     font-size: 18px;
 }
 
-.ingredients_list li, .ingredients_list b {
+.ingredients_list li,
+.ingredients_list b {
     font-size: 12px;
 }
 
@@ -173,4 +174,8 @@ h5 {
 
 .fa-magnifying-glass {
     font-size: 32px;
+}
+
+.column-3 {
+    columns: 3;
 }
