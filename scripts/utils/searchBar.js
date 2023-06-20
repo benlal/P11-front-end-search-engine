@@ -11,13 +11,14 @@ function getDisplayedRecipes() {
     return localRecipes;
 }
 
+
 document.querySelector(".search-bar_input").addEventListener('input', function () {
     getFilteredRecipes();
 });
 
-function getFilteredRecipes() {
+function getFilteredRecipes(localRecipes) {
 
-    let localRecipes = getDisplayedRecipes();
+    // let localRecipes = getDisplayedRecipes();
     console.log(localRecipes);
 
     var searchBarinput = document.querySelector('.search-bar_input');
@@ -133,7 +134,8 @@ function closeList(targetedButton) {
 
 
 function init() {
-    getDisplayedRecipes();
+    var localRecipes = getDisplayedRecipes();
+
 
     setEventsToArrows();
 
