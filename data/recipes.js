@@ -1703,7 +1703,7 @@ export const recipes = [
                 "quantity": 6
             },
             {
-                "name": "Poudre d'amendes",
+                "name": "Poudre d'amandes",
                 "quantity": 500,
                 "unit": "grammes"
             },
